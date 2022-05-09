@@ -1,0 +1,283 @@
+/*
+    Author: Sonali Nayak;
+    Theme: Shopping Website;
+    version: 1.0;
+*/
+*{
+    margin: 0 0;
+    padding: 0,0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container{
+    /* border: 1px solid rgba(43, 214, 226, 0.555); */
+    width:100%;
+    margin: 0 auto;
+
+}
+
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 10px;
+}
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align:center ;
+    
+       
+}
+.clearfix{
+    clear:both;
+    float:none;
+}
+
+a{
+    color:rgb(248, 132, 151);
+    text-decoration: none;
+}
+a:hover{
+    color:solid #FC427B;
+}
+.menu{
+    line-height: 53px;
+}
+
+.menu ul{
+    list-style-type:none;
+}
+
+.menu ul li{
+    display: inline;
+    padding:1% ;
+}
+
+.btn{
+padding:6px;
+border: none;
+font-size:1.1rem;
+border-radius: 1px;
+}
+.btn-primary:hover{
+    background-color:#FC427B;
+}
+.btn-primary{
+    background-color:rgb(252, 174, 187);
+    color: white;
+    cursor: pointer;
+}
+
+.float-container{
+position:relative;
+
+}
+.float-text{
+    position: absolute;
+    bottom:10px; 
+    left:28%;
+    color:blueviolet;
+    background-color: #f6c6fa;
+}
+.h3{
+    font-size: 1.5rem;
+
+}
+h2{
+    color:rgba(74,135,182,255);
+    font-size: 1.7rem;
+    margin-bottom:2%;
+    
+}
+
+/* css for navbar section*/
+.logo{
+    /* border: 1px solid black;  */
+    width: 3.62%;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* css for item-search section*/
+.item-search{
+    background-image: url(../images/B\ Box.\ Co.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding : 8% 0;
+    padding: bottom;
+
+}
+.item-search input[type="search"]{
+    width: 50%;
+    padding:6px;
+    font-size: 1.1rem;
+    border:none;
+    border-radius: 3px;
+    
+}
+.box{
+    /* border:1px solid black; */
+    width:80%;
+    float: left;
+    margin: 4%;
+    position: relative;
+    left:6%;
+}
+/* css for categories*/
+.categories{
+    padding: 4% 0;
+}
+.box-6{
+    /* border:1px solid black; */
+    width:28%;
+    float: left;
+    margin: 2%;
+}
+
+/*css for item menu*/
+.menu{
+    background-color:#e3ebf2;
+}
+.item-menu-box{
+    /* border: 1px solid black; */
+    width:43%;
+    margin: 1.5%;
+    padding: 2%;
+    float:left;
+    background-color:rgb(255,228,225);
+    border-radius: 15px;
+}
+.item-menu-img{
+    width:40%;
+    float: left;
+}
+
+.item-menu-desc{
+    width:43%;
+    float:left;
+    margin-left:8%;
+
+}
+
+.item-price{
+    font-size: 1.1 rem;
+    margin: 0% 0;
+}
+
+/* css for social media*/
+.social ul li{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.footer{
+    padding: 10px;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+.background-color{
+    background-color: black;
+}
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+/* css for mobile */
+@media only screen and (max-width:768px){
+    .logo{
+        width:15%;
+        float:left;
+        margin:0% auto;
+    }
+
+
+    .menu ul{
+        text-align:center ;
+    }
+
+    .item-search input[type="search"]{
+        width:90%;
+        margin-top: 5%;
+        border:0.1px solid pink;
+        margin-bottom: 3%;
+        padding: 2%;
+    }
+
+    .btn{
+        width:91%;
+        padding:2%;
+    }
+
+    .item-search{
+        background-image: url(../images/B\ Box.\ Co.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding : 20% 0;
+        padding: bottom;
+
+    }
+
+    .box-6{
+        width: 50%;
+        margin: 2% auto;
+
+    }
+
+    .h2{
+        margin-bottom: 10%;
+    }
+
+    .menu{
+        padding:4%;
+
+    }
+
+    .item-menu-box{
+        width: 90%;
+        padding: 3%;
+        margin-bottom: 3%;
+    }
+
+    .social{
+        padding: 5% 0;
+    }
+
+    .order{
+        width: 100%;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+
+
+}
